@@ -5,12 +5,13 @@
         },
         "values": 
         {
+         "EntityTitle":"Sample Title"
          "EntityType":"DF/Quiz/Assignment",
-         "UserId":"a0j9D0000043ey7QAA",
-         
+         "UserId":"0059D0000043ey7QAA",
+         "CourseOfferingId":"a09D0000043ey7QAA"
          "EntityLink":"www.submissionrequest.com",
          "EntityId":"HI78",
-         "LearnerName":"Swapnil",
+         "LearnerName":"Swapnil",  //FirstName+MiddleName+LastName / Name
          "Action": "Submission Request"
          
           
