@@ -12,7 +12,7 @@ Payload to Target All Members under a course and program plan
          "EntityLink": "www.mldf.com",
          "CourseOfferingId": "a0B9D000006MGXYUA4",
          "EntityId":"HI78",   //Unique
-         "CreatedDate":"04-10-2022" //Discussion Forum Created date in LMS
+         
          "StartDate": "04-12-2022",
          "EndDate": "04-14-2022",
          "Action": "Published",
@@ -37,14 +37,12 @@ Payload to Target specific set of students
         },
         "values": 
         {
-         "ContactId": "0039D00000FcpjHQAR",
-        "EntityType":"DF/QUIZ/Assignment",
-         "EntityTitle": "ML Discussion",
-         "EntityLink": "www.mldf.com",
+         "ContactId": "0039D00000FcpjHQAR",  //Mandatory
+         "EntityType":"DF/QUIZ/Assignment",  //Mandatory
+         "EntityTitle": "ML Discussion",     //Mandatory
+         "EntityLink": "www.mldf.com",       //Mandatory
          "CourseOfferingId": "a0B9D000006MGXYUA4",
          "EntityId":"HI78",
-         
-         "CreatedDate":"04-10-2022" //Discussion Forum Created date in LMS
          "StartDate": "04-12-2022",
          "EndDate": "04-14-2022",
          "Action": "Published",
