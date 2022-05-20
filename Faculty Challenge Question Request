@@ -1,0 +1,21 @@
+[
+    {
+        "keys": {
+           "UniqueId": "{{$guid}}" //Random Generated Id UUID/GUID
+        },
+        "values": 
+        {
+         "UserId":"a0j9D0000043ey7QAA",
+         "EntityTitle": "ML Discussion",
+         "EntityType":"Quiz/Assignment",
+         "CourseOfferingId": "a0B9D000008fFaMUAU",
+         "EntityId":"HI78",
+         "LearnerName":"Swapnil",
+         "EntityLink":"www.challengerequest.com",
+         "Action": "Challenge Question Request",
+         
+          
+         }
+
+    }
+]
