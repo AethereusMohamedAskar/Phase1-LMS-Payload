@@ -1,0 +1,17 @@
+[
+    {
+        "keys": {
+           "UniqueId": "{{$guid}}" //Random Generated Id UUID/GUID
+        },
+        "values": 
+        {
+        
+         "EntityType":"Df/quiz/assignment",
+         "EntityId":"HI78",
+         "Action": "UnPublished",
+         
+          
+         }
+
+    }
+]
