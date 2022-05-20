@@ -11,7 +11,7 @@ Payload to Target All Members under a course and program plan
          "EntityTitle": "ML Discussion",
          "EntityLink": "www.mldf.com",
          "CourseOfferingId": "a0B9D000006MGXYUA4",
-         "EntityId":"HI78",
+         "EntityId":"HI78",   //Unique
          "CreatedDate":"04-10-2022" //Discussion Forum Created date in LMS
          "StartDate": "04-12-2022",
          "EndDate": "04-14-2022",
