@@ -6,9 +6,8 @@
         "values": 
         {
          "UserId":"a0j9D0000043ey7QAA",
-         "EntityTitle": "ML Discussion",
-         "EntityType":"Quiz",
-         "CourseOfferingId": "a0B9D000008fFaMUAU",
+         "EntityTitle": "ML Quiz",
+         "EntityType":"Quiz/Assignment",
          "EntityId":"HI78",
          "LearnerName":"Swapnil",
          "EntityLink":"www.reattemptrequest.com",
