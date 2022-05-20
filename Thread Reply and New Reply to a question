@@ -1,0 +1,21 @@
+[
+    {
+        "keys": {
+           "UniqueId": "{{$guid}}" //Random Generated Id UUID/GUID
+        },
+        "values": 
+        {
+         "ContactId": "0039D00000G5W0jQAF",
+         "EntityType":"DiscussionForum/Q&A"
+         "EntityLink": "www.threadlink/newreplylink.com", //Thread Link or //New Reply in Q&A
+         "CourseOfferingId": "a0B9D000006MGXYUA4",
+         "EntityId":"HI78",
+         "Action": "Thread Reply/New Reply",
+         "ReplierName":"Sudip"
+        
+        
+          
+         }
+
+    }
+]
