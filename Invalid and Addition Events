@@ -1,0 +1,28 @@
+[
+    {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Invalid",
+            "Target":"All" //Groupid //ContactId
+
+        }
+    },
+    {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Added",
+            "GroupId":"a0W9D000003IYK8UAO" //Target=All //ContactId
+           
+        }
+    }
+]
