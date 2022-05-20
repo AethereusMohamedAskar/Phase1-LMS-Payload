@@ -1,3 +1,5 @@
+1.Target to Group
+
 [
     {
         "keys": {
@@ -8,7 +10,7 @@
             "CourseOfferingId": "a0B9D000006MGXYUA4",
             "EntityId": "DFID/QuizId..etc",
             "Action": "Invalid",
-            "Target":"All" //Groupid //ContactId
+            "Target":"All" 
 
         }
     },
@@ -21,8 +23,355 @@
             "CourseOfferingId": "a0B9D000006MGXYUA4",
             "EntityId": "DFID/QuizId..etc",
             "Action": "Added",
-            "GroupId":"a0W9D000003IYK8UAO" //Target=All //ContactId
+            "GroupId":"a0W9D000003IYK8UAO" 
            
         }
     }
+]
+
+
+2.Target to speific students
+
+[
+ {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Invalid",
+            "Target":"All" 
+           
+        }
+    },
+    {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Added",
+            "ContactId":"a0B9D000008fFaMUAU" 
+
+        }
+    },
+     {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Added",
+            "ContactId":"a0B9D000008fFaMUAU" 
+
+        }
+    },
+     {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Added",
+            "ContactId":"a0B9D000008fFaMUAU" 
+
+        }
+    }
+   
+]
+
+3.Group1 to Group 2
+
+[
+    {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Invalid",
+            "GroupId":"a0B9D000006MGXYUA4" 
+
+        }
+    },
+    {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Added",
+            "GroupId":"a0W9D000003IYK8UAO" 
+           
+        }
+    }
+]
+
+
+4.Group to Specific Students
+
+[
+ {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Invalid",
+            "GroupId":"a0B9D000006MGXYUA" 
+           
+        }
+    },
+    {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Added",
+            "ContactId":"a0B9D000008fFaMUAU" 
+
+        }
+    },
+     {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Added",
+            "ContactId":"a0B9D000008fFaMUAU" 
+
+        }
+    },
+     {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Added",
+            "ContactId":"a0B9D000008fFaMUAU" 
+
+        }
+    }
+   
+]
+
+5.Group to Target=All
+
+[
+    {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Invalid",
+            "GroupId":"a0B9D000006MGXYUA4" 
+
+        }
+    },
+    {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Added",
+            "Target":"All" 
+           
+        }
+    }
+]
+
+6.Specific Student to Target=All
+
+
+[
+{
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Invalid",
+            "ContactId":"a0B9D000008fFaMUAU" 
+
+        }
+    },
+     {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Invalid",
+            "ContactId":"a0B9D000008fFaMUAU" 
+
+        }
+    },
+     {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Invalid",
+            "ContactId":"a0B9D000008fFaMUAU" 
+
+        }
+    }
+   
+ {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Added",
+            "Target":"All" 
+           
+        }
+    }
+    
+]
+
+7.Specific Student to group
+
+
+[
+{
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Invalid",
+            "ContactId":"a0B9D000008fFaMUAU" 
+
+        }
+    },
+     {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Invalid",
+            "ContactId":"a0B9D000008fFaMUAU" 
+
+        }
+    },
+     {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Invalid",
+            "ContactId":"a0B9D000008fFaMUAU" 
+
+        }
+    }
+   
+ {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Added",
+            "GroupId":"a0B9D000006MGXYUA4" 
+           
+        }
+    }
+    
+]
+
+8.Specific Students to specific students
+
+
+[
+{
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Invalid",
+            "ContactId":"a0B9D000008fFaMUAU" 
+
+        }
+    },
+     {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Invalid",
+            "ContactId":"a0B9D000008fFaMUAU" 
+
+        }
+    },
+     {
+        "keys": {
+            "UniqueId": "{{$guid}}"
+        },
+        "values": {
+            "EntityType":"DiscussionForum/Quiz/Assignment..etc"
+            "CourseOfferingId": "a0B9D000006MGXYUA4",
+            "EntityId": "DFID/QuizId..etc",
+            "Action": "Added",
+            "ContactId":"a0B9D000008fFaMUAU" 
+
+        }
+    }
+   
+ 
 ]
