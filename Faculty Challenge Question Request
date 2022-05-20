@@ -5,10 +5,12 @@
         },
         "values": 
         {
-         "UserId":"a0j9D0000043ey7QAA",
-         "EntityType":"Quiz/Assignment",
+        "EntityTitle":"Sample Title"
+         "EntityType":"DF/Quiz/Assignment",
+         "UserId":"0059D0000043ey7QAA",
+         "CourseOfferingId":"a09D0000043ey7QAA"
          "EntityId":"HI78",
-         "LearnerName":"Swapnil",
+         "LearnerName":"Swapnil",  //First+Middle+Last / Name
          "EntityLink":"www.challengerequest.com",
          "Action": "Challenge Question Request",
          
