@@ -5,7 +5,7 @@
         },
         "values": 
         {
-        
+         "CourseOfferingId":"a0B9D000008fFaMUAU"
          "EntityType":"Df/quiz/assignment",
          "EntityId":"HI78",
          "Action": "UnPublished",
