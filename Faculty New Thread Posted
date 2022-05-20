@@ -1,0 +1,19 @@
+[
+    {
+        "keys": {
+           "UniqueId": "{{$guid}}" //Random Generated Id UUID/GUID
+        },
+        "values": 
+        {
+         "EntityType":"DiscussionForum",
+         "UserId":"a0j9D0000043ey7QAA",
+         "EntityId":"HI78",
+         "LearnerName":"Swapnil",
+         "EntityLink":"www.threadpostedlink.com",
+         "Action": "Thread Posted",
+         
+          
+         }
+
+    }
+]
