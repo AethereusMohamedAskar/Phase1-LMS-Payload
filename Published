@@ -13,8 +13,8 @@ Payload to Target All Members under a course and program plan
          "CourseOfferingId": "a0B9D000006MGXYUA4",
          "EntityId":"HI78",   //Unique
          
-         "StartDate": "04-12-2022",
-         "EndDate": "04-14-2022",
+         "StartDate": "04-12-2022 5:30 PM",
+         "EndDate": "04-14-2022 10:00 PM",
          "Action": "Published",
          "Choice":"Mandatory",
          "Type":"Gradable",
