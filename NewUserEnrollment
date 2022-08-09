@@ -4,7 +4,7 @@ Learner
 
 {
     "ContactKey": "0035g00000cPo1YAAS",   //Mandatory - Student ContactId
-    "EventDefinitionKey":"APIEvent-73050c9b-49e6-a585-c02b-903b6ce9a5b2",
+    "EventDefinitionKey":"APIEvent-40880114-3eb0-2d06-b9bf-323e7edfd43a",
     "Data": {
         "EmailAddress":"mohamed.askar@aethereus.com",
         "PasswordLink":"www.passwordlink.com",
