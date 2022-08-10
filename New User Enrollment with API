@@ -2,7 +2,7 @@ API EndPoint :  https://mc-cys54qp6r821t-bh8ky7kcck4.rest.marketingcloudapis.com
 Authentication Bearer access token URL : https://mc-cys54qp6r821t-bh8ky7kcck4.auth.marketingcloudapis.com/v2/token
 
 Learner
-
+ For Personal Email Address
 {
     "ContactKey": "0035g00000cPo1YAAS",   //Mandatory - Student ContactId
     "EventDefinitionKey":"APIEvent-d597da8a-88ad-7e20-0918-4ded0debfd2c",
