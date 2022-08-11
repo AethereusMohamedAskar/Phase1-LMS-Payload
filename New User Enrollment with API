@@ -2,35 +2,18 @@ API EndPoint :  https://mc-cys54qp6r821t-bh8ky7kcck4.rest.marketingcloudapis.com
 Authentication Bearer access token URL : https://mc-cys54qp6r821t-bh8ky7kcck4.auth.marketingcloudapis.com/v2/token
 
 Learner
- For Personal Email Address
+ For Personal and University Email Address
 {
     "ContactKey": "0035g00000cPo1YAAS",   //Mandatory - Student ContactId
     "EventDefinitionKey":"APIEvent-d597da8a-88ad-7e20-0918-4ded0debfd2c",
     "Data": {
         "ContactId":"0035g00000cPo1YAAS",
-        "UserId":"0050w000003ZhO1AAK",
         "Program":"MBA 2021",
         "FullName":"Ashwini Surwase",
-        "PersonalEmail":"mohamed.askar@aethereus.com",
+        "EmailAddress":"mohamed.askar@aethereus.com",
         "PhoneNumber":"91888888888",
-        "ProgramEnrollmentId":"a0J0w0000008ApLEAU",
         "ResetLink":"https://iam-qa01.unext.tech/accountrecoveryendpoint/confirmrecovery.do?confirmation=ddbccd95-eaf1-4619-a415-707f168d8e34&userstoredomain=PRIMARY&username=sainatht@yopmail.com&tenantdomain=carbon.super&callback=https://capgemini-edunxtqa01.unext.tech?loginStatus=true",
-        "UserName":"Tejas Panchnani"
-      
-         }
-}
----------------------------------------------------------------------------------------
- For University Email Address
-{
-    "ContactKey": "0035g00000cPo1YAAS",   //Mandatory - Student ContactId
-    "EventDefinitionKey":"APIEvent-d597da8a-88ad-7e20-0918-4ded0debfd2c",
-    "Data": {
-        "ContactId":"0035g00000cPo1YAAS",
-        "Program":"MBA 2021",
-        "FullName":"Ashwini Surwase",
-        "UniversityEmail":"mohamed.askar@aethereus.com",
-        "ResetLink":"https://iam-qa01.unext.tech/accountrecoveryendpoint/confirmrecovery.do?confirmation=ddbccd95-eaf1-4619-a415-707f168d8e34&userstoredomain=PRIMARY&username=sainatht@yopmail.com&tenantdomain=carbon.super&callback=https://capgemini-edunxtqa01.unext.tech?loginStatus=true",
-        "UserName":"Tejas Panchnani"
+        "UserName":"abc@unext.com"
       
          }
 }
@@ -38,7 +21,7 @@ Learner
 For Mobile Push
 {
     "ContactKey": "0035g00000cPo1YAAS",   //Mandatory - Student ContactId
-    "EventDefinitionKey":"APIEvent-d597da8a-88ad-7e20-0918-4ded0debfd2c",
+    "EventDefinitionKey":"APIEvent-b675a0bb-bb2a-1e3f-d318-68fee9ee4991",
     "Data": {
         "UserId":"0050w000003ZhO1AAK",
         "Program":"MBA 2021",
