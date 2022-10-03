@@ -1,0 +1,41 @@
+/*Re-attempt request Approval after attempting it once during/after validity*/
+[
+    {
+        "keys": {
+           "UniqueId": "{{$guid}}" //Random Generated Id UUID/GUID
+        },
+        "values": 
+        {
+       
+         "EntityType":"DF/Quiz/Assignment",
+         "ContactId":"0059D0000043ey7QAA",
+         "CourseOfferingId":"a09D0000043ey7QAA"
+         "EntityId":"HI78",
+         "Action": "ReAttempt Request Approval"
+         "EndDate": "04-14-2022 10:00 PM"
+          
+         }
+
+    }
+]
+========================================================================================
+/* Re-attempt request Rejection after attempting it once during/after validity*/
+[
+    {
+        "keys": {
+           "UniqueId": "{{$guid}}" //Random Generated Id UUID/GUID
+        },
+        "values": 
+        {
+       
+         "EntityType":"DF/Quiz/Assignment",
+         "ContactId":"0059D0000043ey7QAA",
+         "CourseOfferingId":"a09D0000043ey7QAA"
+         "EntityId":"HI78",
+         "Action": "ReAttempt Request Rejected"
+         
+          
+         }
+
+    }
+]
