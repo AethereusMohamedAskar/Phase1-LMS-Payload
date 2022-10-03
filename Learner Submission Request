@@ -7,7 +7,7 @@
         "values": 
         {
          
-         "EntityType":"DF/Quiz/Assignment",
+         "EntityType":"Quiz/Assignment",
          "ContactId":"0059D0000043ey7QAA",
          "CourseOfferingId":"a09D0000043ey7QAA"
          "EntityId":"HI78",
@@ -30,7 +30,7 @@
         "values": 
         {
          
-         "EntityType":"DF/Quiz/Assignment",
+         "EntityType":"Quiz/Assignment",
          "ContactId":"0059D0000043ey7QAA",
          "CourseOfferingId":"a09D0000043ey7QAA"
          "EntityId":"HI78",
