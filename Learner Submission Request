@@ -1,0 +1,20 @@
+[
+    {
+        "keys": {
+           "UniqueId": "{{$guid}}" //Random Generated Id UUID/GUID
+        },
+        "values": 
+        {
+         
+         "EntityType":"DF/Quiz/Assignment",
+         "ContactId":"0059D0000043ey7QAA",
+         "CourseOfferingId":"a09D0000043ey7QAA"
+         "EntityId":"HI78",
+         "Action": "Submission Request Approved"
+         "EndDate": "04-14-2022 10:00 PM"
+         
+          
+         }
+
+    }
+]
