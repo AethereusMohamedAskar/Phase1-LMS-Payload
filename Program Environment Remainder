@@ -1,0 +1,16 @@
+[
+    {
+        "keys": {
+           "UniqueId": "{{$guid}}" //Random Generated Id UUID/GUID
+        },
+        "values": 
+        {
+         "EntityType":"PE Quiz/Assignment",
+         "CourseOfferingId": "a0B9D000006MGXYUA4",
+         "EntityId":"HI78",   //Unique
+         "Action": "Graded",
+       
+         }
+
+    }
+]
