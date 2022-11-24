@@ -1,0 +1,85 @@
+Payload to Target All Members under a course and program plan
+
+[
+    {
+        "keys": {
+           "UniqueId": "{{$guid}}" //Random Generated Id UUID/GUID
+        },
+        "values": 
+        {
+         "EntityType":"PE Quiz/Assignment",
+         "EntityTitle": "ML Discussion",
+         "EntityLink": "www.mldf.com",
+         "CourseOfferingId": "a0B9D000006MGXYUA4",
+         "EntityId":"HI78",   //Unique
+         "StartDate": "04-12-2022 5:30 PM",
+         "EndDate": "04-14-2022 10:00 PM",
+         "Action": "Published",
+         "Choice":"Mandatory",
+         "Type":"Gradable",
+         "Target": "All",
+          
+         }
+
+    }
+]
+
+
+__________________________________________________________________________________________
+
+Payload to Target specific set of students
+
+[
+    {
+        "keys": {
+           "UniqueId": "{{$guid}}" //Random Generated Id UUID/GUID
+        },
+        "values": 
+        {
+         "ContactId": "0039D00000FcpjHQAR",  
+         "EntityType":"PE Quiz/Assignment",  
+         "EntityTitle": "ML Discussion",     
+         "EntityLink": "www.mldf.com",       
+         "CourseOfferingId": "a0B9D000006MGXYUA4",
+         "EntityId":"HI78",
+         "StartDate": "04-12-2022",
+         "EndDate": "04-14-2022",
+         "Action": "Published",
+         "Choice":"Mandatory",
+         "Type":"Gradable"
+          
+         }
+
+    }
+]
+
+
+_____________________________________________________________________________________________________
+
+
+Payload to Target specific group of students based on groupid
+
+[
+    {
+        "keys": {
+           "UniqueId": "{{$guid}}" //Random Generated Id UUID/GUID
+        },
+        "values": 
+        {
+         "groupId": "0039D00000FcpjHQAR",
+         "EntityType":"PE Quiz/Assignment",
+         "EntityTitle": "ML Discussion",
+         "EntityLink": "www.mldf.com",
+         "CourseOfferingId": "a0B9D000006MGXYUA4",
+         "EntityId":"HI78",
+         "CreatedDate":"04-10-2022" 
+         "StartDate": "04-12-2022",
+         "EndDate": "04-14-2022",
+         "Action": "Published",
+         "Choice":"Mandatory",
+         "Type":"Gradable"
+          
+         }
+
+    }
+]
