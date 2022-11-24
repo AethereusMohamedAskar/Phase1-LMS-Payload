@@ -7,12 +7,12 @@
         "values": 
         {
        
-         "EntityType":"DF/Quiz/Assignment",
+         "EntityType":"Quiz/Assignment",
          "ContactId":"0059D0000043ey7QAA",
          "CourseOfferingId":"a09D0000043ey7QAA"
          "EntityId":"HI78",
          "Action": "ReAttempt Request Approval"
-         "EndDate": "04-14-2022 10:00 PM"
+         
           
          }
 
@@ -28,7 +28,7 @@
         "values": 
         {
        
-         "EntityType":"DF/Quiz/Assignment",
+         "EntityType":"Quiz/Assignment",
          "ContactId":"0059D0000043ey7QAA",
          "CourseOfferingId":"a09D0000043ey7QAA"
          "EntityId":"HI78",
