@@ -11,7 +11,8 @@
          "ContactId":"0059D0000043ey7QAA",
          "CourseOfferingId":"a09D0000043ey7QAA"
          "EntityId":"HI78",
-         "Action": "ReAttempt Request Approval"
+         "Entitylink":"www.reattemptrequestapprovedlinkfromlms.com",
+         "Action": "ReAttempt Request Approved"
          
           
          }
@@ -32,6 +33,7 @@
          "ContactId":"0059D0000043ey7QAA",
          "CourseOfferingId":"a09D0000043ey7QAA"
          "EntityId":"HI78",
+         "Entitylink":"www.reattemptrequestapprovedlinkfromlms.com",
          "Action": "ReAttempt Request Rejected"
          
           
